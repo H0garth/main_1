@@ -1,6 +1,7 @@
 #include <iostream>
 #include <random>
 #include "rpg.hpp"
+#include "combat.hpp"
 using namespace std;
 
 int randomInt(int min, int max) {
@@ -29,10 +30,11 @@ bool isAlive(const Character& c) {
 }
 
 void printStats(const Character& c) {
-    std::cout << "=== " << c.name << "\n" endl;
-              << "Level: " << c.level << endl;
-              << "HP:    " << c.hp << "/" << c.maxHp << endl;
-              << "ATK:   " << c.attack << endl;
-              << "DEF:   " << c.defense << endl;
-              << "XP:    " << c.xp << "/" << c.xpToNextLevel << endl;
-              << "Gold:  " << c.gold << endl;
+    std::cout << "=== " << c.name << " ===" << std::endl        
+              << "Level: " << c.level << std::endl
+              << "HP:    " << c.hp << "/" << c.maxHp << std::endl
+              << "ATK:   " << c.attack << std::endl
+              << "DEF:   " << c.defense << std::endl
+              << "XP:    " << c.xp << "/" << c.xpToNextLevel << std::endl
+              << "Gold:  " << c.gold << std::endl;
+}
