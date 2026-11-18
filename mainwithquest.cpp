@@ -90,5 +90,27 @@ int main()
     if retry == Y:
     startQuest1();
 
+void startQuest2() {
+    printWithDelay("NAME recovers from the victory, and proceeds where they were going. ");
+    printWithDelay("A sign appears, diverging two paths before NAME, will they turn Left(1) into a cave or Right(2) deeper into the forest?");
+    if (cin = 1){
+    printWithDelay("Name ventures Left, and follows the light deep within the cave. A stronghold door appears before Name. Open the door(1) or Return to the Forest(2)?
+    }
+    if (cin = 2){
+    printwithDelay("Name ventures Right, and eventually reaches a dead end. Turn around(1) or go off the path(2)?")
+    if (cin = 1 ){
+    printwithDelay("Name turns around and treads deep within the cave, passing by a door to a stronghold. Open the door(1) or Return to the Forest(2)?
+    }
+    if (cin = 2){
+    printwithDelay("Name walks off the beaten path, when all of a sudden they step into a stone circle. An angry pixie appears!")
+    printwithDelay(" "How dare you step into my territory!" she exclaims" ")
+    printwithDelay("You feel the ground shake before you, and sense 
+    }
+    
+    cout<<"ENTER BATTLE - QUEST 1"<<endl;
+    
+}
+    
+
     */
 
